@@ -118,7 +118,7 @@ results['n_fixed'] = N_FIXED
 results['power_fixed'] = power_fixed
 results['inflation_factor'] = inflation
 results['test_func_kwargs']['adjacency'] = type(results['test_func_kwargs']['adjacency']).__name__
-results_fname = '%s.json'%EFFECT_NAME
+results_fname = '%s-cluster.json'%EFFECT_NAME
 results_fpath = os.path.join(RESULTS_DIR, results_fname)
 with open(results_fpath, "w") as f:
     json.dump(results, f, indent = 4)
