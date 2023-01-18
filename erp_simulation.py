@@ -23,6 +23,7 @@ N_SIMULATIONS = 10000
 N_FIXED = 30
 N_LOOKS = 3
 ALPHA = .01
+CLUSTER_THRESHOLD = 2.
 
 ################################################################################
 ## Main
@@ -43,6 +44,7 @@ res_fixed = bootstrap_predictive_power_1samp(
     [N_FIXED], N_FIXED,
     alpha = ALPHA,
     adjacency = adj,
+    threshold = CLUSTER_THRESHOLD,
     n_simulations = N_SIMULATIONS,
     seed = 0, n_jobs = -1
 )
@@ -105,6 +107,7 @@ results = bootstrap_predictive_power_1samp(
     look_times, n_max,
     alpha = ALPHA,
     adjacency = adj,
+    threshold = CLUSTER_THRESHOLD,
     spending_func = PocockSpendingFunction(ALPHA, n_max),
     n_simulations = N_SIMULATIONS,
     seed = 0, n_jobs = -1
