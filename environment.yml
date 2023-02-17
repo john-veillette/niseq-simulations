@@ -1,0 +1,15 @@
+name: niseq-simulations
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - mne>1.0
+  - nilearn
+  - numba
+  - r-essentials
+  - r-base
+  - r-rpact
+  - rpy2
+  - pip
+  - pip:
+    - niseq
