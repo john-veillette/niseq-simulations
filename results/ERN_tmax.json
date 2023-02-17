@@ -1,0 +1,37 @@
+{
+    "uncorr_instantaneous_power": [
+        0.391,
+        0.9675
+    ],
+    "rejection_probability": [
+        0.2864,
+        0.6274
+    ],
+    "cumulative_power": [
+        0.2864,
+        0.9138
+    ],
+    "uncorr_cumulative_power": [
+        0.391,
+        0.972
+    ],
+    "n_expected": 29.1312,
+    "n_simulations": 10000,
+    "n_orig_data": 40,
+    "conditional": false,
+    "test_func": "noisy_test_func",
+    "test_func_kwargs": {
+        "spending_func": "PocockSpendingFunction",
+        "look_times": [
+            17,
+            34
+        ],
+        "n_max": 34,
+        "alpha": 0.05,
+        "verbose": false
+    },
+    "n_fixed": 30,
+    "power_fixed": 0.9176,
+    "inflation_factor": 1.1085349597344547,
+    "noise_param": 2.0
+}

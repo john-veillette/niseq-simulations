@@ -1,0 +1,39 @@
+{
+    "uncorr_instantaneous_power": [
+        0.9644,
+        0.999
+    ],
+    "rejection_probability": [
+        0.8905,
+        0.1035
+    ],
+    "cumulative_power": [
+        0.8905,
+        0.994
+    ],
+    "uncorr_cumulative_power": [
+        0.9644,
+        0.9993
+    ],
+    "n_expected": 17.8615,
+    "n_simulations": 10000,
+    "n_orig_data": 40,
+    "conditional": false,
+    "test_func": "sequential_cluster_test_1samp",
+    "test_func_kwargs": {
+        "spending_func": "PocockSpendingFunction",
+        "adjacency": "csr_matrix",
+        "threshold": 2.0,
+        "look_times": [
+            16,
+            33
+        ],
+        "n_max": 33,
+        "alpha": 0.05,
+        "verbose": false
+    },
+    "n_fixed": 30,
+    "power_fixed": 0.9979,
+    "inflation_factor": 1.0825234623953317,
+    "noise_param": 0.0
+}
