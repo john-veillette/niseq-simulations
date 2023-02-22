@@ -1,0 +1,3 @@
+These files contain the lowpass-filtered, preprocessed difference waves from the ERP CORE dataset, which is available on [Open Science Framework](https://doi.org/10.18115/D5JW4R) and described in the [ERP CORE paper](https://doi.org/10.1016/j.neuroimage.2020.117465).
+
+We have provided the precomputed difference waves here in a file format that can be more easily read with MNE-Python. However, the data are still subject to the terms of the license with which they were originally made available on [OSF](https://doi.org/10.18115/D5JW4R), which we have reproduced the text of in the file `LICENSE.md`. The data are provided, originally, by Emily S. Kappenman, Jaclyn Farrens, Wendy Zhang, Andrew X Stewart, and Steven J. Luck.
