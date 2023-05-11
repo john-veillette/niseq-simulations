@@ -2,7 +2,7 @@
 
 This repository contains simulation scripts and their results meant to verify the error control and statistical power characteristics of the group sequential testing procedure implemented in the [niseq](https://github.com/john-veillette/niseq) package. 
 
-* `FPR-simulation.ipynb` contains simulations to estimate the false positive rate of sequential permutation tests vs. regular permutation tests used with optional stopping.
+* `FPR-simulation.ipynb` contains simulations to estimate the false positive rate of sequential permutation tests vs. regular permutation tests used with optional stopping. `FPR-simulation-chi2.ipynb` contains additional simulations using a different distribution to simulate null data.
 * `erp_simulation.py` contains code to run power analyses by simulation for fixed-sample and sequential designs. It takes a long time to run a reasonable number of simulations, so we ran this on UChicago's Midway2 cluster.
   * `erp_simulation.py` draws from the files in the `erpcore` directory to perform its power analyses, which contains seven widely used evoked EEG responses measured from 40 different subjects.
   * The `results` directory contains the output of `erp_simulation.py`, which includes the parameters used for each simulation as well as the power estimates.
